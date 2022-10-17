@@ -1,0 +1,104 @@
+body {
+            font-size: 100%;
+            font-family: Arial, helvetica, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #555;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 400px;
+            background-color: #fff;
+            border-radius: 20px;
+        }
+
+        .btn-red-qa,
+        .btn-green-qa,
+        .btn-blue-qa {
+            min-width: 120px;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            margin: 10px 15px;
+            font-size: 100% + 40%;
+            font-weight: 600;
+            transition: 0.5s;
+        }
+
+        .btn-red-qa {
+            border: 5px solid #e74c3c;
+            color: #e74c3c;
+        }
+
+        .btn-green-qa {
+            border: 5px solid #2ecc71;
+            color: #2ecc71;
+        }
+
+        .btn-blue-qa {
+            border: 5px solid #3498db;
+            color: #3498db;
+        }
+
+        .btn-red-qa:hover {
+
+            cursor: pointer;
+        }
+
+        .btn-red-qa::before {
+            border: 0px;
+        }
+
+        .btn-green-qa:hover {
+
+            cursor: pointer;
+        }
+
+        .btn-green-qa::before {
+            border: 0px;
+        }
+
+        .btn-blue-qa:hover {
+
+            cursor: pointer;
+        }
+
+        .btn-blue-qa::before {
+            border: 0px;
+        }
+
+        .btn-red-qa:hover {
+            background-color: #e74c3c;
+            border: 5px solid #e74c3c;
+            color: #ecf0f1;
+            cursor: pointer;
+        }
+
+        .btn-green-qa:hover {
+            background-color: #2ecc71;
+            border: 5px solid #2ecc71;
+            color: #ecf0f1;
+            cursor: pointer;
+        }
+
+        .btn-blue-qa:hover {
+            background-color: #3498db;
+            border: 5px solid #3498db;
+            color: #ecf0f1;
+            cursor: pointer;
+        }
+
+        .btn {
+            display: flex;
+        }
