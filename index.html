@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!--Estado foi um atributo inventado-->
+        <img src="/JavaScript/images/lampada-off.jpg" alt="Lâmpada" id="lampada" estado="apagada">
+
+        <div class="btn">
+            <!-- <button onclick="onOff('/JavaScript/images/lampada-on.jpg', 'acesa')">Acende</button>
+            <button onclick="onOff('/JavaScript/images/lampada-off.jpg', 'apagada')">Apaga</button>
+           -->
+            <div class="btn-green-qa" onclick="onOff('/JavaScript/images/lampada-on.jpg', 'acesa')">Acende </div>
+            <div class="btn-red-qa" onclick="onOff('/JavaScript/images/lampada-off.jpg', 'apagada')">Apaga</div>
+        </div>
+
+        <div class="btn-blue-qa" onclick="qualEstado()">A lâmpada está acesa ou apagada?</button>
+        <!--<button onclick="qualEstado()">A lampada está acesa ou apagada?</button>-->
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
